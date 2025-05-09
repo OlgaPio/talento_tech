@@ -3,22 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prueba 2025</title>
-    <style>
+    <title>Entregable Talento Tech</title>
+
+    <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            background-color: rgb(255, 255, 253);
+        }
+
         h1{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: rgb(42, 138, 165);
-            size: 15px;
+            color: rgb(173, 106, 55);
             text-align: center;
         }
 
-        centrar{
+        h2{
+            color: rgb(22, 108, 194);
+        }
+        nav ul{
+            list-style: none;
+            text-align: center;
+            font-size: 18px;
+        }    
+
+        nav ul li{
+            display: inline;
+            margin-right: 20px;
+        }
+
+        ul{
+            list-style-type: upper-roman;
+            margin-left: 10px;
+        }
+        
+        table{
+            background-color: rgb(253, 255, 252);
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 6px solid #ddd;
+        }
+
+        th{
+            background-color: #d4d3d3;
+            text-align: center;
+            border: 2px solid #090808;
+            padding: 50px;
+        }
+
+        td{
             text-align: center;
         }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #000000;
+            
+        }
+
     </style>
+
 </head>
 <body>
-    <h1><center> PRUEBA 2025 mayo 9 </center></h1>
-    
+
+    <header title="listas y tablas">
+        <h1>Bienvenido al aprendizaje de listas y tablas.</h1>
+<hr>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#servicio">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="listas">
+        <h1>Listas en HTML</h1><br>
+        <h2>listas de redes sociales</h2>
+        <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>           
+        </ul>
+    </section><hr>
+
+    <section id="acerca">
+        <h2>Tabla de redes sociales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre red social</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><img src="./imagenes/facebook.png" alt="facebook" width="60px"></th>
+                    <th>Facebook</th>
+                    <th><p align="justify">Facebook es la principal red social que existe en el mundo. Una red de vínculos virtuales, cuyo principal objetivo es dar un soporte para producir y compartir contenidos</p></th>
+                </tr>
+                <tr>
+                    <th><img src="./imagenes/instagram.png" alt="instagram" width="60px"></th>
+                    <th>Instagram</th>
+                    <th><p align="justify">Instagram es una red social y aplicación móvil gratuita para compartir fotos y videos</p></th>
+                </tr>
+                <tr>
+                    <th><img src="./imagenes/twitter.png" alt="twitter" width="60px"></th>
+                    <th>Twitter</th>
+                    <th><p align="justify">Es una herramienta de mensajería social gratuita que permite a los usuarios mantenerse conectados a través de mensajes de texto </p></th>
+                </tr>
+            </tbody>
+        </table>
+    </section><hr>
+
+
 </body>
 </html>
